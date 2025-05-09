@@ -11,7 +11,7 @@ library(readr)
 
 
 # Read your CSV with semicolon delimiter
-data <- read_delim("/Users/diegomedina/Desktop/final_paper/raw_data/measurements.csv", 
+data <- read_delim("/Users/diegomedina/Desktop/ds4lingfinalproject/raw_data/measurements.csv", 
                    delim = ";")
 
 ################################################################################
