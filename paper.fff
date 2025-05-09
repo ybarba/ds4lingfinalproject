@@ -1,0 +1,10 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+
+{\centering \includegraphics[width=0.85\linewidth]{paper_files/figure-latex/plot1-F3-F4-1}
+
+}
+
+\caption{General Distribution of F3 and F4}\label{fig:plot1-F3-F4}
+\end{figure*}
