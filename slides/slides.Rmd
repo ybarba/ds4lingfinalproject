@@ -1,0 +1,389 @@
+---
+title: " Lateralization of the syllable-final /ɾ/ to /l/ in the Puerto Rican diaspora"
+author: "Yhosep Barba"
+institute: "Rutgers University"
+date: "2025/05/05"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+```{r}
+#| echo: false 
+#| warning: false 
+#| message: false
+library(here)
+```
+# <span style="color: red;">Introduction</span>
+
+- Early studies: neutralization described categorically (López Mórales, 1992). 
+
+  Puerto > [pwél.to] ('port') and verde > [‘bel.de] ('green')
+  
+- Recent studies: favor gradient approach — lateralization (Luna, 2010). 
+
+  F3: [l¹] = 500–1000 Hz lower
+
+  F4: [l¹] ≈ 120 Hz lower
+  
+- Linguistic and social contraints on lateralization of the /r/.
+
+---
+# <span style="color: red;">Linguistic Constraints</span>
+
+- Position in word (Ramos-Pellicia, 2020):
+
+  Word-final /ɾ/ → more likely to lateralize
+
+  Word-internal /ɾ/ → less likely
+
+- Preceding vowel (Ramos-Pellicia, 2020):
+
+  [a] favors lateralization
+
+  [e] and [o] disfavor it
+  
+- Word category (Ramos-Pellicia, 2020)
+
+ More likely to show lateralization: infinitives, verbs (in general)
+ 
+ Less likely to show lateralization: nouns, adverbs, and adjectives
+---
+# <span style="color: red;">Social Constraints</span>
+
+- López Morales (1992): 
+   
+  All social levels favor it to varying degrees; strongest among lower SES.
+
+- Terrell (1980):
+
+  Women → prefer standard /ɾ/
+
+  Men (especially younger and older) → more lateralization
+
+- López Morales (1983):
+
+  Men in San Juan lateralize more than women
+
+- Holmquist (2003, 2004):
+
+  Younger women → high rates of lateralization
+---
+# <span style="color: red;">Lateralization in the Puerto Rican Diaspora</span>
+
+- Ma & Herasimchuck (1972):
+
+ NJ Puerto Ricans with less education & rural ties → more lateralization.
+ 
+- Ramos-Pellicia (2004, 2007, 2009):
+
+  Lorain, Ohio:
+
+  Men and women show similar frequencies
+
+  2nd generation lateralizes more than 1st or 3rd
+
+---
+
+# <span style="color: red;">Research Questions</span>
+
+1. To what extent do PR participants living in NJ utilize lambdacism?
+
+2. To what extent do linguistic factors such as word position, surrounding vowels, and grammatical category influence the occurrence of lambdacism in Puerto Rican Spanish?
+
+3. Do the social characteristics of Puerto Ricans in New Jersey, such as gender, and educational background constrain their use of the aforementioned sociophonological features?
+
+---
+
+```{r, out.width="80%", fig.align="center"}
+#| echo: false 
+#| warning: false 
+#| message: false
+knitr::include_graphics("/Users/diegomedina/Desktop/ds4lingfinalproject/slides/pics/firstpic.png")
+```
+---
+# <span style="color: red;">La historia de Juan — Fictional Narrative Design</span>
+
+- 301-word story created with ChatGPT (OpenAI)
+
+- Word Position of /r/ → [l]
+  
+  Final position: 17 tokens (56.7%)
+  Internal position: 13 tokens (43.3%)
+
+- Preceding Vowel Context
+  
+  [a]: 12 tokens (40%)
+  [e]: 11 tokens (36.7%)
+  [o]: 7 tokens (23.3%)
+
+- Word Category
+  
+  Nouns: 12 tokens (40%)
+  Verbs: 11 tokens (36.7%)
+  Adjectives: 6 tokens (20%)
+  Prepositions: 1 token (3.3%)
+---
+# <span style="color: red;">To Analize Lateralization of the /r/</span>
+
+- Forced alignment done using Montreal Forced-Aligner (McAuliffe et al., 2017)
+
+  Example: puerta [pwél.ta] → segmented into [p] [w] [é] [l] [t] [a]
+  
+  Total tokens: 420 across 14 participants
+
+  Word-internal: 182 tokens
+
+  Word-final: 238 tokens
+  
+- Total segmental measurements: 1,680
+
+  F3: 840 values (420 average + 420 midpoint)
+
+  F4: 840 values (420 average + 420 midpoint)
+---
+# <span style="color: red;">Results</span>
+
+- F3 Measurements (Hz)
+
+  Midpoint Mean: 2417.93 Hz
+  SD = 425.41 Hz
+
+  Full Segment Mean: 2414.36 Hz
+  SD = 348.46 Hz
+
+- F4 Measurements (Hz)
+
+  Midpoint Mean: 3633.23 Hz
+  SD = 529.73 Hz
+
+  Full Segment Mean: 3617.05 Hz
+  SD = 443.17 Hz
+---
+```{r, out.width="100%", fig.align="center"}
+#| echo: false 
+#| warning: false 
+#| message: false
+knitr::include_graphics("/Users/diegomedina/Desktop/ds4lingfinalproject/slides/pics/figure1.png")
+```
+---
+# <span style="color: red;">Variation across participants – F3 Patterns</span>
+
+- Lowest F3 midpoint values:
+
+  Participants pr06, pr08, pr09, pr14
+
+  Range: ~2090–2207 Hz
+
+- Highest F3 midpoint values:
+
+  Participants pr04, pr05, pr12
+
+  Mostly above 2500 Hz
+  
+- F3 averages followed similar trends
+
+  Low: pr06, pr08
+
+  High: pr04, pr05
+---
+# <span style="color: red;">Variation across participants – F4 Patterns</span>
+
+- Lowest F4 midpoint values:
+
+  pr08, pr09 → ~3140–3280 Hz
+
+- Highest F4 midpoint values:
+
+  pr10, pr12 → Exceeding 4000 Hz
+
+- F4 averages:
+
+  Low: pr08, pr09 (~3150–3220 Hz)
+
+  High: pr10, pr12, pr13 (>3900 Hz)
+
+---
+```{r, out.width="150%", fig.align="center"}
+#| echo: false 
+#| warning: false 
+#| message: false
+knitr::include_graphics("/Users/diegomedina/Desktop/ds4lingfinalproject/slides/pics/figure2.png")
+```
+---
+# <span style="color: red;">About the effect of internal and external linguistic factors on F3 and F4 values </span>
+
+- To assess the influence of internal linguistic and external social factors on F3 and F4 values, a series of mixed-effects models were built with random intercepts for participants and lexical items. This approach accounts for repeated measures and individual variability while capturing the hierarchical structure of the data. 
+- It also allows for the simultaneous analysis of linguistic factors (e.g., word category, vowel context, word position) and social variables (e.g., gender, educational background) within a unified framework.
+---
+# <span style="color: red;"> Internal and external linguistic factors on F3 </span>
+
+- Null model: Included random intercepts for participant and word
+ 
+  Estimated overall mean F3: 2421.81 Hz (SE = 64.14, p < 0.001)
+  
+- Model 1: Added position inside the word (internal vs. final) as fixed effect
+
+  Model fit improved (p = 0.004)
+  
+  Internal position → higher F3 than final
+  Estimate = 128.19, SE = 41.53, p = 0.005
+  
+- Model 2:Added word category (noun, verb, adjective, preposition)
+  
+  No significant effects (p > 0.24)
+  Did not improve model fit → excluded from further models
+  
+- Model 3:  Added preceding vowel alongside position
+  
+  Improved model over Model 1 (p = 0.005)
+  
+  /o/: significantly lower F3 (Estimate = –106.79, p = 0.029)
+  /e/: marginal effect (Estimate = 94.12, p = 0.085)
+
+---
+
+- Model 4: Gender added with position and preceding vowel
+ 
+  Improved fit over Model 3 (p = 0.021)
+  
+  Women → higher F3 than men (Estimate = 246.57, p = 0.036)
+
+  Effects of vowel and position remained consistent
+  
+- Model 5:  Model 5 – Interaction: Gender × Preceding Vowel
+
+  Best overall model (p < 0.001)
+
+  Significant interaction effects:
+
+  /e/ × Gender: Estimate = 251.77, p < 0.001
+
+  /o/ × Gender: Estimate = 126.58, p = 0.043
+
+  Vowel effects differ by gender
+
+---
+```{r, out.width="150%", fig.align="center"}
+#| echo: false 
+#| warning: false 
+#| message: false
+knitr::include_graphics("/Users/diegomedina/Desktop/ds4lingfinalproject/slides/pics/figure3.png")
+```
+---
+# <span style="color: red;"> Educational Background and F3 </span>
+
+```{r, out.width="150%", fig.align="center"}
+#| echo: false 
+#| warning: false 
+#| message: false
+knitr::include_graphics("/Users/diegomedina/Desktop/ds4lingfinalproject/slides/pics/figure4.png")
+```
+---
+
+# <span style="color: red;"> Internal and external linguistic factors on F4 </span>
+
+- Null model:
+
+  Random intercepts: participant, word
+
+  Fixed intercept: F4 = 3610.31 Hz
+
+  Residual variance: 109,921 (SD = 331.54)
+
+- Model 1: Added position inside the word
+
+  Internal position → +150.62 Hz (p = 0.0013)
+
+  Significantly improved model fit
+
+- Model 2: Added word category to position
+
+  Preposition: significant decrease in F4 (–315.20 Hz, p = 0.0092)
+
+  Caution: only 1 token
+
+  Other categories (noun, verb): no significant effect
+---
+- Model 3: Added preceding vowel alongside position
+
+  Vowel /e/: significantly raised F4 (+126.90 Hz, p = 0.040)
+
+  Vowel /o/: no significant effect
+
+  Improved model over null and Model 1
+  
+- Model 4: Added gender to position + vowel model
+
+  Women → higher F4 (+439.10 Hz, p = 0.0012)
+
+  Model significantly better than previous (p < 0.001)
+  
+- Model 5: Tested Gender × Preceding Vowel interaction
+
+  /o/ × Gender: significant (p = 0.004)
+
+  /e/ × Gender: marginal (p = 0.074)
+
+  Main effect of gender remained significant (p = 0.009)
+
+  Model 5 = Best fit overall (p = 0.013)
+
+---
+# <span style="color: red;"> Educational Background and F4 </span>
+```{r, out.width="150%", fig.align="center"}
+#| echo: false 
+#| warning: false 
+#| message: false
+knitr::include_graphics("/Users/diegomedina/Desktop/ds4lingfinalproject/slides/pics/figure5.png")
+```
+---
+# <span style="color: red;"> Discussion </span>
+```{r, out.width="150%", fig.align="center"}
+#| echo: false 
+#| warning: false 
+#| message: false
+knitr::include_graphics("/Users/diegomedina/Desktop/ds4lingfinalproject/slides/pics/figure6.png")
+```
+
+```{r, out.width="150%", fig.align="center"}
+#| echo: false 
+#| warning: false 
+#| message: false
+knitr::include_graphics("/Users/diegomedina/Desktop/ds4lingfinalproject/slides/pics/figure7.png")
+```
+
+---
+```{r, out.width="150%", fig.align="center"}
+#| echo: false 
+#| warning: false 
+#| message: false
+knitr::include_graphics("/Users/diegomedina/Desktop/ds4lingfinalproject/slides/pics/figure8.png")
+```
+
+```{r, out.width="150%", fig.align="center"}
+#| echo: false 
+#| warning: false 
+#| message: false
+knitr::include_graphics("/Users/diegomedina/Desktop/ds4lingfinalproject/slides/pics/figure9.png")
+```
+---
+# <span style="color: red;"> Discussion </span>
+
+- Word-internal positions yield higher F3 and F4 valuess.
+
+  Ramos-Pellicia (2020) similarly observed that word-final positions favor   
+  lateralization.
+  
+- Preceding vowel /o/ lowered F3 significantly, while /e/ marginally raised F3 and   F4, but these effects interacted with gender.
+
+  Ramos-Pellicia (2020) found that [a] favors lateralization, whereas [e] and [o] disfavor it.
+  
+- Women had significantly higher F3 and F4 values, indicating less lateralization, which aligns with Terrell (1980) and López Morales (1983), who said women favor standard variants.
+
+- Lower F3/F4 values in speakers with lower education, and higher formants in those with more education. This matches Poplack’s (1979) Philadelphia study and Ma & Herasimchuk (1972) in New Jersey.
+---
+Thank you!
